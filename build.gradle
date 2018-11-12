@@ -38,4 +38,6 @@ dependencies {
 
 	implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
 
+	implementation group: 'org.webjars', name: 'bootstrap-datepicker', version: '1.0.1'
+
 }
