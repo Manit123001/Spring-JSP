@@ -1,10 +1,6 @@
-<html>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 
-<head>
-<title>First Web Application</title>
-</head>
-
-<body>
 
     <form method="post">
 		Name : <input type="text" name="name" />
@@ -13,6 +9,4 @@
 	</form>
 	<font color="red">${errorMessage}</font>
 
-</body>
-
-</html>
+<%@ include file="common/footer.jspf" %>
