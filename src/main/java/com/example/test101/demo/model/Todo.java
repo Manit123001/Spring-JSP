@@ -86,10 +86,7 @@ public class Todo {
             return false;
         }
         Todo other = (Todo) obj;
-        if (id != other.id) {
-            return false;
-        }
-        return true;
+        return id == other.id;
     }
 
     @Override
