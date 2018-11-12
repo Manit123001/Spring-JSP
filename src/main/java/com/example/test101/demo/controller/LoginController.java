@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 @SessionAttributes("name")
 public class LoginController {
 
-    @Autowired
-    LoginService service;
+//    @Autowired
+//    LoginService service;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String showWelcomePage(ModelMap model) {
