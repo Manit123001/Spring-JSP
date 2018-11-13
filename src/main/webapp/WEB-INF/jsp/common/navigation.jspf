@@ -9,7 +9,7 @@
 
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
-		    <li><a href="/logoutx">Logout</a></li>
+		    <li><a href="/logout1">Logout</a></li>
         </ul>
 	</div>
 </nav>
