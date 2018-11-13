@@ -1,3 +1,18 @@
+Implementing Server Side Validation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Command Bean or Form Backing Bean
+
+Add Validation
+Use Validation on Controller
+Display Errors in View
+
+Command Bean
+~~~~~~~~~~~~
+Controller
+View - Spring Form Tags
+
+
+
 LoginController -> adds name to model
 welcome.jsp -> shows ${name}
 
@@ -29,4 +44,4 @@ Search for a view named "login"
 
 
 
-/login => LoginController 
+/login => LoginController
